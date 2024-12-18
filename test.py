@@ -1,10 +1,10 @@
 from ultralytics import YOLO
 import cv2
 
-# Carregar o modelo
+# carregar o modelo
 model = YOLO("best.pt")
 
-# Caminho para a imagem que você deseja testar
+# Caminho da imagem
 image_path = "picture.png"
 
 # Realizar a inferência no modelo
